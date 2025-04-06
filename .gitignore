@@ -1,0 +1,26 @@
+# You should customize this list as applicable to your project
+
+# Node artifact files
+migrations
+__pycache__
+
+# Compiled Java class files
+*.class
+
+# Compiled Python bytecode
+*.py[cod]
+
+# log files
+*.log
+
+# Package files
+*.jar
+
+# Ignore environment file
+.env
+
+# Ignore database connection script
+mydb.py
+
+# Keep migrations folder but ignore '*.pyc' inside
+migrations/*.pyc
